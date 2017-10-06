@@ -54,14 +54,15 @@ for dirpath, dirnames, filenames in os.walk(enum_dir):
 version = __import__('django_enumfield').__version__
 
 setup(
-    name="django-enumfield",
+    name="django10-enumfield",
     version=version,
     description="Custom Django field for using enumerations of named constants",
     long_description=open(os.path.join(os.path.dirname(__file__), "README.rst"), encoding='utf-8').read(),
     author="Hannes Ljungberg",
     author_email="hannes@5monkeys.se",
-    url="http://github.com/5monkeys/django-enumfield",
-    download_url="https://github.com/5monkeys/django-enumfield/tarball/{version}".format(version=version),
+    maintainer="Jacek Bzdak",
+    maintainer_email="jacek@askesis.pl",
+    url="https://github.com/i2biz/django-enumfield",
     keywords=["django", "enum", "field", "status", "state", "choices", "form", "model"],
     platforms=['any'],
     license='MIT',
@@ -70,7 +71,6 @@ setup(
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         'Framework :: Django',

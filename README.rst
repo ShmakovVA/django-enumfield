@@ -1,6 +1,11 @@
 django-enumfield
 ================
 
+
+.. note::
+
+    Clone of django-enumfield for django 1.10+
+
 Provides an enumeration Django model field (using IntegerField) with reusable enums and transition validation.
 
 .. image:: https://travis-ci.org/5monkeys/django-enumfield.svg?branch=master
