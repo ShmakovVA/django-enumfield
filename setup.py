@@ -54,7 +54,7 @@ for dirpath, dirnames, filenames in os.walk(enum_dir):
 version = __import__('django_enumfield').__version__
 
 setup(
-    name="django10-enumfield",
+    name="django-enumfield",
     version=version,
     description="Custom Django field for using enumerations of named constants",
     long_description=open(os.path.join(os.path.dirname(__file__), "README.rst"), encoding='utf-8').read(),
